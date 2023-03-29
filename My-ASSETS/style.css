@@ -1,0 +1,42 @@
+ 
+ body{
+   margin: auto;
+   padding: 19px;
+   background-color: antiquewhite;
+ }
+ 
+ 
+ div {
+    width: 100px;
+    height: 60px;
+    background: rgb(9, 255, 0);
+    position:relative;
+    animation: myfirst 5s infinite;
+    animation-delay: 2s;
+    
+  }
+  
+
+ div{
+    border-radius: 10px;
+
+    
+  }
+  h1,h2{
+    text-align: center;
+    text-decoration: underline;
+  }
+
+
+
+
+
+
+  
+  @keyframes myfirst {
+    0%   {background: red; left: 0px; top: 0px;}
+    25%  {background: yellow; left: 200px; top: 0px;}
+    50%  {background: rgb(159, 159, 247); left: 200px; top: 200px;}
+    75%  {background: rgb(129, 225, 129); left: 0px; top: 200px;}
+    100% {background: red; left: 0px; top: 0px;}
+  }

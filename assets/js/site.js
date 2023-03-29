@@ -2,6 +2,8 @@
 
 const myApp = document.getElementById('app');
 
+
+
 const geoOptions = {
     enableHighAccuracy: true,
     timeout: 5000,
@@ -20,6 +22,8 @@ function error(err) {
 
 
 //myApp.innerText = 'test';
+
+
 navigator.geolocation.getCurrentPosition(success, error, geoOptions);
 
 
